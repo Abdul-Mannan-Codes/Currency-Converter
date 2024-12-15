@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: #f4e4ba; */
+    background-image: url(images/moneybg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+    background-color: rgb(255,255,255,0.9);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size:1.5rem;
+    margin-top:1rem;
+}
+.select-container img{
+    max-width:2rem;
+}
+.select-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:6rem;
+    border-radius:0.5rem;
+    border:1px solid lightgray;
+}
+.select-container, select{
+    cursor: pointer;
+}
+.select-container:hover, select:hover{
+    background-color: #ffffff;
+}
+.select-container select{
+    font-size:1rem;
+    width:auto;
+}
+
+#msg{
+    margin:2rem 0 2rem 0;
+}
+form button{
+    height:3rem;
+    background-color: #a3001b;
+    font-size:1.15rem;
+    cursor:pointer;
+    color:white;
+    transition: background-color 500ms;
+}
+form button:hover{
+    background-color: #e70329  ;
+}
+footer{
+    position: absolute;
+    bottom: 20px;
+    color:#a3001b;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+footer a{
+    text-decoration: none;
+    color:#a3001b;
+}
+footer a:hover{
+    text-decoration: underline;
+    color:#e70329;
+}
